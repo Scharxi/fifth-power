@@ -10,5 +10,5 @@ long GetSumOfFirstHundredOddNumbers()
     return GetFirstHundredOddNumbers().Sum();
 }
 
-var fifthRoot = Math.Pow(Convert.ToDouble(GetSumOfFirstHundredOddNumbers()), 5);
+var fifthRoot = Math.Pow(Convert.ToDouble(GetSumOfFirstHundredOddNumbers()), 1.0 / 5);
 Console.WriteLine(fifthRoot);
